@@ -35,6 +35,15 @@ public class Menu {
                         
                         break;
                     case 6:
+
+                        // Ejemplo de uso para el punto 6
+                        ProductoP6[][] supermercado = {
+                                {new ProductoP6("Producto1", "leva", 10.0, 1), new ProductoP6("Producto2","freno", 20.0, 1)},
+                                {new ProductoP6("Producto3","aceite", 15.0, 0), new ProductoP6("Producto4","manubrio", 25.0, 0)}
+                        };
+
+                        Metodos.punto6(supermercado);
+                        
                         break;
                     case 7:
                         break;
