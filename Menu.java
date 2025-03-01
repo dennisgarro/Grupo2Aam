@@ -26,6 +26,8 @@ public class Menu {
                     case 2:
                         break;
                     case 3:
+                    Punto3 p3 = new Punto3();
+                    p3.Punto3(d);
                         break;
                     case 4:
                         break;
