@@ -2,6 +2,9 @@ import java.util.Scanner;
 
 public class Menu {
 
+    static metodos8 met = new metodos8();
+    static Obj8 Obj8 = new Obj8();
+
     public static void main(String[] args) {
 
         try (Scanner sc = new Scanner(System.in)) {
@@ -90,6 +93,16 @@ public class Menu {
 
                         break;
                     case 8:
+
+                        int n = met.SolicitarDimension8();
+                        Obj8[][] matriz8 = new Obj8[n][n];
+                
+                        matriz8 = met.LlenarMatriz8(n);
+                
+                        met.LeerMatriz8(matriz8, n);
+                
+                        met.SepararCategorias(matriz8, n);
+                        
                         break;
                     case 9:
                         break;
